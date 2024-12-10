@@ -1,0 +1,10 @@
+python={"rama","sita","mohhmed","kishor","madhu","manish"}
+sql={"kishore","madhu","manish"}
+java={"rama","sita","manish","ss","gg","fff"}
+print(sql)
+b=python.intersection(sql)
+c=python.intersection(java)
+d=sql.intersection(java)
+print(b.union(c,d))
+print(sql.difference(python,java))
+python(python.union(sql))
